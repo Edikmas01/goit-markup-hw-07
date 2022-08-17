@@ -1,0 +1,129 @@
+.header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.header > .container {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  margin-right: 93px;
+}
+
+.header-span {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: color 250ms linear;
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+.actev {
+  position: relative;
+}
+
+.actev::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  left: 0;
+  background-color: var(--accent-color);
+  bottom: -28px;
+}
+
+.header-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header-email,
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--pre-title-color);
+  transition: color 250ms linear;
+}
+
+.header-connect {
+  margin-left: auto;
+}
+
+.header-email {
+  margin-right: 30px;
+}
+
+.envelope-icon-header {
+  margin-right: 10px;
+  fill: var(--pre-title-color);
+  transition: fill 250ms linear;
+}
+
+.header-email:hover {
+  color: var(--accent-color);
+}
+.header-email:hover .envelope-icon-header {
+  fill: #2196f3;
+}
+
+.header-email:focus {
+  color: var(--accent-color);
+}
+.header-email:focus .envelope-icon-header {
+  fill: #2196f3;
+}
+
+.phone-icon-header {
+  margin-right: 10px;
+  fill: var(--pre-title-color);
+  transition: fill 250ms linear;
+}
+
+.header-tel:hover {
+  color: var(--accent-color);
+}
+.header-tel:hover .phone-icon-header {
+  fill: #2196f3;
+}
+
+.header-tel:focus {
+  color: var(--accent-color);
+}
+.header-tel:focus .phone-icon-header {
+  fill: #2196f3;
+}
