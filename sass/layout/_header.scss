@@ -4,12 +4,6 @@
   border-bottom: 1px solid #ececec;
 }
 
-.header-list {
-  display: flex;
-  align-items: center;
-  padding: 0;
-}
-
 .header > .container {
   display: flex;
   align-items: center;
@@ -36,7 +30,34 @@
   color: #000000;
 }
 
-.header-link {
+/*.header-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  margin-right: 93px;
+}
+
+.logo__span {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}*/
+
+.navigation__list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.navigation__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -46,8 +67,8 @@
   padding-bottom: 5px;
   transition: color 250ms linear;
 }
-.header-link:hover,
-.header-link:focus {
+.navigation__link:hover,
+.navigation__link:focus {
   color: var(--accent-color);
 }
 
@@ -66,12 +87,12 @@
   bottom: -28px;
 }
 
-.header-item:not(:last-child) {
+.navigation__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.header-email,
-.header-tel {
+.connect__email,
+.connect__tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -80,50 +101,50 @@
   transition: color 250ms linear;
 }
 
-.header-connect {
+.header__connect {
   margin-left: auto;
 }
 
-.header-email {
+.connect__email {
   margin-right: 30px;
 }
 
-.envelope-icon-header {
+.connect__envelope-icon {
   margin-right: 10px;
   fill: var(--pre-title-color);
   transition: fill 250ms linear;
 }
 
-.header-email:hover {
+.connect__email:hover {
   color: var(--accent-color);
 }
-.header-email:hover .envelope-icon-header {
+.connect__email:hover .connect__envelope-icon {
   fill: #2196f3;
 }
 
-.header-email:focus {
+.connect__email:focus {
   color: var(--accent-color);
 }
-.header-email:focus .envelope-icon-header {
+.connect__email:focus .connect__envelope-icon {
   fill: #2196f3;
 }
 
-.phone-icon-header {
+.connect__phone-icon {
   margin-right: 10px;
   fill: var(--pre-title-color);
   transition: fill 250ms linear;
 }
 
-.header-tel:hover {
+.connect__tel:hover {
   color: var(--accent-color);
 }
-.header-tel:hover .phone-icon-header {
+.connect__tel:hover .connect__phone-icon {
   fill: #2196f3;
 }
 
-.header-tel:focus {
+.connect__tel:focus {
   color: var(--accent-color);
 }
-.header-tel:focus .phone-icon-header {
+.connect__tel:focus .connect__phone-icon {
   fill: #2196f3;
 }

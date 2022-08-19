@@ -2,21 +2,21 @@
   padding-bottom: 94px;
 }
 
-.gallery-title {
+.title {
   margin-bottom: 50px;
 }
 
-.gallery-list {
+.gallery__list {
   display: flex;
   column-gap: 30px;
   padding: 0;
 }
-.gallery-item {
+.gallery__item {
   width: calc((100% - 60px) / 3);
   position: relative;
 }
 
-.gallery-text {
+.gallery__text {
   position: absolute;
   font-weight: 700;
   font-size: 14px;

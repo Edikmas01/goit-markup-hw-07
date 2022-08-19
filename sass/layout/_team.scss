@@ -1,17 +1,17 @@
 .team {
   background: #f5f4fa;
 }
-.team-title {
+.title {
   margin-bottom: 50px;
 }
 
-.team-list {
+.card-list {
   display: flex;
   column-gap: 30px;
   padding: 0;
 }
 
-.team-item {
+.card-list__item {
   width: calc((100% - 90px) / 4);
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -19,11 +19,12 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-div {
+.card-list__div {
   margin-top: 30px;
+  padding-bottom: 30px;
 }
 
-.team-name {
+.card-list__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -34,7 +35,7 @@
   margin-bottom: 10px;
 }
 
-.team-job {
+.card-list__job {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -44,17 +45,14 @@
   margin-bottom: 16px;
 }
 
-.team-div {
-  padding-bottom: 30px;
-}
-.team-soc {
+.socials {
   display: flex;
   justify-content: center;
   gap: 10px;
   padding: 0;
 }
 
-.team-soc-link {
+.socials__link {
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -65,23 +63,23 @@
   transition: background-color 300ms linear;
 }
 
-.team-soc-icon {
+.socials__icon {
   fill: #afb1b8;
   transition: fill 300ms linear;
 }
 
-.team-soc-link:hover {
+.socials__link:hover {
   background-color: var(--accent-color);
 }
 
-.team-soc-link:hover .team-soc-icon {
+.socials__link:hover .socials__icon {
   fill: #ffffff;
 }
 
-.team-soc-link:focus {
+.socials__link:focus {
   background-color: var(--accent-color);
 }
 
-.team-soc-link:focus .team-soc-icon {
+.socials__link:focus .socials__icon {
   fill: #ffffff;
 }

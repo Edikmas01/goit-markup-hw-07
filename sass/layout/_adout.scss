@@ -1,10 +1,17 @@
-.about-list {
+.about__list {
   display: flex;
   column-gap: 30px;
   padding: 0;
 }
 
-.about-title {
+.about__item {
+  justify-content: space-between;
+  align-items: baseline;
+  max-width: 270px;
+  width: calc((100% - 90px) / 4);
+}
+
+.wrapper__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -14,14 +21,7 @@
   margin-bottom: 10px;
 }
 
-.about-item {
-  justify-content: space-between;
-  align-items: baseline;
-  max-width: 270px;
-  width: calc((100% - 90px) / 4);
-}
-
-.about-pre-title {
+.wrapper__pre-title {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -30,13 +30,12 @@
   width: 270px;
   height: 75px;
 }
-
-.wrapper-icon {
+.wrapper {
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
   margin-bottom: 30px;
 }
-.wrapper-icon {
+.wrapper {
   padding: 25px 102px;
 }
