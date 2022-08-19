@@ -31,7 +31,6 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
-
   margin-bottom: 10px;
 }
 
@@ -61,25 +60,22 @@
   align-items: center;
   justify-content: center;
   transition: background-color 300ms linear;
+  &:hover {
+    background-color: var(--accent-color);
+  }
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
 
 .socials__icon {
   fill: #afb1b8;
   transition: fill 300ms linear;
-}
+  .socials__link:hover & {
+    fill: #ffffff;
+  }
 
-.socials__link:hover {
-  background-color: var(--accent-color);
-}
-
-.socials__link:hover .socials__icon {
-  fill: #ffffff;
-}
-
-.socials__link:focus {
-  background-color: var(--accent-color);
-}
-
-.socials__link:focus .socials__icon {
-  fill: #ffffff;
+  .socials__link:focus & {
+    fill: #ffffff;
+  }
 }

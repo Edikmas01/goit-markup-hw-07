@@ -6,7 +6,3 @@
   background: rgba(0, 0, 0, 0.2);
   transition: opacity 250ms linear, visibility 300ms linear;
 }
-
-.beckdrop .is-hidden .modal {
-  transform: translate(-50%, -50%) scale(0);
-}
